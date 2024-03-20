@@ -2,6 +2,7 @@
 //In call by value, actual parameters are copied to formal parameters 
 //and these two different parameters store value at 
 //different memory loactaions
+//No Any Change will be Reflected to the Actual Parameter
 #include<stdio.h>
 void increment(int x, int y);
 int main(){
