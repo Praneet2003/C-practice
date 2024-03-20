@@ -8,7 +8,7 @@ int add(){//no Arguments
 int main(){
     int c;
     c = add();
-    printf("The Result is %d",c);
+    printf("The Result is %d: ",c);
     return 0;
 }
 // Output:-
