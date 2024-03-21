@@ -1,0 +1,28 @@
+// You are using GCC
+#include<stdio.h>
+float parkingCharge(char s, float parkingtime);
+float parkingCharge(char s, float parkingtime){
+    float rate; 
+    switch(s){
+        case 'c':
+            rate = 2.0;
+            break;
+        case 'b':
+            rate = 3.0;
+            break;
+        case 't':
+            rate = 4.0;
+            break;
+        default:
+            printf("Invalid Parking");
+    
+    }
+    return rate * parkingtime;
+}
+int main(){
+    char s;
+    float parkingtime;
+    scanf("%c",&s);
+    scanf("%f",&parkingtime);
+    printf("%.2f", parkingCharge(s,parkingtime));
+}
