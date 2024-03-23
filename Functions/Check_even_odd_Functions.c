@@ -1,7 +1,7 @@
 #include<stdio.h>
 //here we are not returning anything from the function so void is used here
 int main(){
-    void check_even_odd(int z);//
+    void check_even_odd(int z);//Declaration of Functions
     int x = 20;
     int y = 51;
     check_even_odd(y);
