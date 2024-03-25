@@ -1,4 +1,5 @@
 // You are using GCC
+//To Check Out the Number is Perfect Cube or Not...
 #include<stdio.h>
 int isPerfectCube(int n){
     if(n<0){
