@@ -27,4 +27,4 @@ int main(){
 //Output:-
 //Size of chracter variable is: 1
 //Size of integer variable is: 4
-//Size of union variable is: 4
+//Size of union variable is: 4.
