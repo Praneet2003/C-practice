@@ -14,7 +14,7 @@ int main(){
         printf("Memory sucessfully Allocated using malloc()");
         printf("the elements of array are: ");
         for(i=0;i<n;i++){
-            printf("%d,",ptr[i]);//By default ecah block in calloc() get initialized by '0'
+            printf("%d,",ptr[i]);//By default ecah block in calloc() get initialized by '0'.
         }
     }
     free(ptr);
